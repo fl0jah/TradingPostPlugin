@@ -2,3 +2,9 @@ name: TradingPost
 main: com.fattied.fl0jah.main.Main
 version: 1.0
 description: Post/Interact with trades through the centralized gui trade menu
+commands:
+ openpost:
+  description: Opens trading post central gui menu. Interactable
+  aliases: popen
+  usage: /<command>
+  permission: tradingpost.openpost
